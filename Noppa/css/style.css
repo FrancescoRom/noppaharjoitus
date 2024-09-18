@@ -1,0 +1,55 @@
+/* General styles for the body */
+body {
+    background-color: black;
+}
+
+/* Styles for the div with id "text" */
+div#text {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styles for the div with id "container" */
+div#container {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for all div elements */
+div {
+    text-align: center;
+    margin: 2em;
+}
+
+/* Styles for button elements */
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/* CSS for the dice image inside the button */
+#imageButton img {
+    width: 500px;
+    height: auto;
+    transition: opacity 0.5s ease;
+}
+
+/* Keyframes for the shaking animation effect */
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Class to trigger the shake animation */
+.shake {
+    animation: shake 0.5s ease; /* Applies the shake animation defined above for 0.5 seconds */
+}
