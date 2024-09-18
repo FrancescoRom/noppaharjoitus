@@ -1,4 +1,4 @@
 # noppaharjoitus
 FOR SCHOOL
 
-+ lisäsin animaatiot noppaan ja tekstin nopan alapuolelle
++ lisäsin "tärinä" animaation noppaan ja tekstin nopan alapuolelle
